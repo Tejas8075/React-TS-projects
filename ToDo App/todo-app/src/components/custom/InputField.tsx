@@ -5,7 +5,7 @@ const InputField = () => {
   return (
     <form className='flex flex-1 gap-5 mt-32'>
       <Input type='text' name='todo' placeholder='Enter the task...' />
-      <Button>Add Task</Button>
+      <Button>Add the Task</Button>
     </form>
   )
 }
