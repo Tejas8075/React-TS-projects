@@ -1,9 +1,15 @@
-import React from 'react'
+import TodoTile from './TodoTile'
+
+const todos = {
+  
+}
 
 const TodoDisplay = () => {
   return (
-    <div>
-      <TodoTile />
+    <div className='my-10'>
+      {
+        todos.map((todo) => <TodoTile todo={todo} key={todo.id})
+      }
     </div>
   )
 }
