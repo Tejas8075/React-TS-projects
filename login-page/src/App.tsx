@@ -1,9 +1,12 @@
 import React from 'react'
+import LoginPage from './LoginPage'
+import PrivatePage from './PrivatePage'
 
 const App = () => {
   return (
     <div className='App'>
-      <h1>Hello</h1>
+      <LoginPage />
+      <PrivatePage />
     </div>
   )
 }
