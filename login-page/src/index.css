@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #e2e2e2;
+  padding: 50px;
+  border: 5px solid black;
+  width: 30%;
+}
+
+body {
+  text-align: -webkit-center;
+  margin-top: 10%;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 45 41);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  padding: 0.5rem /* 8px */;
+  margin-left: 1rem /* 16px */;
+  margin-right: 1rem /* 16px */;
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  font-weight: 700;
+  padding-left: 1.5rem /* 8px */;
+  padding-right: 1.5rem /* 8px */;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+  cursor: pointer;
+  border: 0;
+}
+
